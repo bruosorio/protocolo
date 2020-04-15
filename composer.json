@@ -1,0 +1,20 @@
+{
+    "name": "protocolo/protocolo",
+    "require": {
+        "slim/slim": "^4.2",
+        "rain/raintpl": "^3.1",
+        "phpmailer/phpmailer": "^6.0",
+        "slim/psr7": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Bruno Osorio",
+            "email": "bruno.osorio@sapura.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "app\\":"app"
+        }
+    }
+}
